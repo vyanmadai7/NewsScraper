@@ -10,12 +10,12 @@ Explicit waits to ensure elements are loaded before scraping
 Clean error handling with automatic browser cleanup
 Optional headless mode for background execution
 
------Prerequisites-----
+## Prerequisites
 
 Python 3.6 or higher
 Google Chrome browser installed on your system
 
------Installation-----
+## Installation
 
 Clone or download this repository
 Install the required dependencies:
