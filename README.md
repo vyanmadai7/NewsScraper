@@ -36,7 +36,7 @@ Example Output
 Python 3.12.0 released -> https://www.python.org/downloads/release/python-3120/
 PSF News: Community Updates -> https://pyfound.blogspot.com/...
 
------Configuration-----
+## Configuration
 
 Headless Mode
 To run the scraper without opening a visible browser window, uncomment this line in the code:
@@ -53,12 +53,12 @@ Explicit Wait: Waits for elements to be present before attempting to extract dat
 Data Extraction: Retrieves text content and href attributes from each news link
 Cleanup: Ensures browser is closed even if errors occur
 
------Dependencies-----
+## Dependencies
 
 selenium: Web browser automation framework
 webdriver-manager: Automatic management of browser drivers
 
------Troubleshooting-----
+## Troubleshooting
 
 Browser doesn't close: The script uses a finally block to ensure the browser closes even if an error occurs.
 Elements not found: If the website structure changes, you may need to update the CSS selector .medium-widget.blog-widget li a.
